@@ -1,4 +1,8 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class SuiService {}
+export class SuiService {
+    getLatestBlock(): any {
+        return "block"
+    }
+}
