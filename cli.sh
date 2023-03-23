@@ -5,8 +5,8 @@ function create(){
   nest new app
 }
 
-function test(){
-  pwd
+function commit(){
+  git add --all && git commit -m "$1" && git push
 }
 
 $@
