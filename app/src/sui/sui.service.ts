@@ -5,7 +5,7 @@ const provider = new JsonRpcProvider(devnetConnection);
 
 @Injectable()
 export class SuiService {
-    getLatestBlock(): any {
+    getSequenceNumber(): any {
         return provider.getLatestCheckpointSequenceNumber()
     }
 }

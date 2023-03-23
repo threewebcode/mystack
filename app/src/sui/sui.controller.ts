@@ -5,8 +5,8 @@ import { SuiService } from './sui.service';
 export class SuiController {
     constructor(private suiService: SuiService){}
 
-    @Get("block/latest")
-    getLatestBlock(): any {
-        return this.suiService.getLatestBlock()
+    @Get("sequence")
+    getSequenceNumber(): any {
+        return this.suiService.getSequenceNumber()
     }
 }
