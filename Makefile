@@ -1,9 +1,7 @@
 .PHONY: commit
 
-msg = "feat:feat"
-ifneq ($(filter commit,$(MAKECMDGOALS)),)
-	msg := $(word 2,$(MAKECMDGOALS))
-endif
+DEFAULT_MSG := "feat: feat"
+COMMIT_MSG ?= $(DEFAULT_MSG)
 
 commit:
-	git add --all && git commit -m "$(msg)" && git push
+	git add --all && git commit -m $(COMMIT_MSG) && git push
