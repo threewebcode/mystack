@@ -1,15 +1,9 @@
-.PHONY: commit ai
+.PHONY: commit
 
-commit:
-	git add --all && git commit -m "feat: feat" && git push
-
-msg = ""
-ifneq ($(filter ai,$(MAKECMDGOALS)),)
+msg = "feat:feat"
+ifneq ($(filter commit,$(MAKECMDGOALS)),)
 	msg := $(word 2,$(MAKECMDGOALS))
 endif
 
-ai:
-	@TMP_FILE=$$(mktemp); \
-	echo "$(msg)" | bito | tee $$TMP_FILE; \
-	sed -n '/^```/,/^```/p' $$TMP_FILE; \
-	rm $$TMP_FILE
+commit:
+	git add --all && git commit -m "$(msg)" && git push
