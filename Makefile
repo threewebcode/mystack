@@ -11,5 +11,5 @@ endif
 ai:
 	@TMP_FILE=$$(mktemp); \
 	echo "$(msg)" | bito | tee $$TMP_FILE; \
-	cat $$TMP_FILE; \
+	sed -n '/^```/,/^```/p' $$TMP_FILE; \
 	rm $$TMP_FILE
