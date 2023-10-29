@@ -7,12 +7,17 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: 'ThreeWebCode',
   },
   routes: [
     {
       path: '/',
       redirect: '/home',
+    },
+    {
+      name: '首页',
+      path: '/home',
+      component: './Home',
     },
   ],
   npmClient: 'pnpm',
