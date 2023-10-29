@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author": "wonderfan2000 <wonderfan2000@gmail.com>",
+  "author": "threewebcode",
   "scripts": {
     "dev": "max dev",
     "build": "max build",
