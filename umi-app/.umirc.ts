@@ -15,10 +15,15 @@ export default defineConfig({
       redirect: '/home',
     },
     {
-      name: '首页',
+      name: 'Home',
       path: '/home',
       component: './Home',
     },
+    {
+      name: 'Wallet',
+      path: '/wallet',
+      component: './Wallet',
+    },    
   ],
   npmClient: 'pnpm',
 });
