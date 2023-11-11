@@ -44,4 +44,79 @@ The "ModalComp" component is a wrapper for the "Modal" component from react-resp
 
 The "ReturnTweetLik" component retrieves the tweet data from local storage and conditionally renders the appropriate action link component (TweetLink, RetweetLink, or FollowLink) based on the status.
 
+**api**
+
+The MoralisNextApi function is being exported as the default export of the module. It takes an object as its argument, which includes the following properties:
+
+- `apiKey`: This property is used to provide the Moralis API key. It is likely retrieved from the environment variable `process.env.MORALIS_API_KEY` or an empty string if the variable is not defined.
+
+- `authentication`: This property is an object that configures the authentication settings for the Moralis backend. It includes the following properties:
+  - `domain`: This property is likely used to specify the domain for authentication. It is an empty string in the code you provided, so it may need to be replaced with the appropriate domain.
+  - `uri`: This property is used to specify the URI for the NextAuth backend. It is likely retrieved from the environment variable `process.env.NEXTAUTH_URL`.
+  - `timeout`: This property sets the timeout duration for authentication requests to 120 seconds (2 minutes).
+
+It uses Telegraf library for creating a Telegram bot. The code handles new chat members and listens for messages sent by the members. It keeps track of users who have sent the correct referral ID and performs various operations based on the referral ID.
+
+1. Imports necessary modules and libraries.
+2. Creates a new instance of the Telegraf bot using the Telegram bot token.
+3. Initializes a map to keep track of users and their referral ID status.
+4. Defines a function to find users based on a referral ID.
+5. Defines a function to update the referral ID status for a user.
+6. Defines a function to update the entries for a user in a giveaway.
+7. Handles the "new_chat_members" event, which is triggered when new members join a chat. It sends a welcome message and asks for the referral ID.
+8. Handles any text message sent by users in the chat.
+9. Checks if the user has already sent the correct referral ID.
+10. If the message matches a specific format ("/join/{referralId}"), it extracts the referral ID and checks if it is valid. If valid, it updates the referral ID status and performs entry updates.
+11. If the user has not sent the correct referral ID, it checks if the text matches a valid referral ID. If valid, it updates the referral ID status and performs entry updates.
+12. Exports an async function that handles the incoming requests to the API endpoint. It passes the request body to the Telegraf bot for processing.
+
+**users**
+
+The dashboard page displays a dashboard for users who have participated in giveaways. It retrieves data from Firebase and displays it in different sections, such as live events, followed companies, and events history. It also includes some conditional rendering based on the user's type (company or user) and a loader while the data is being fetched.
+
+The user profile displays the user's personal information, security info, linked accounts, and notifications. The user can edit their personal information, security info, and linked accounts. They can also enable/disable notifications and verify their email address.
+
+The component uses various hooks and libraries such as react-hook-form for form validation, react-hot-toast for displaying toast messages, and firebase for authentication and database operations. It also uses custom hooks like useAuth and useUserData to access authentication and user data.
+
+The component includes conditional rendering based on the user's authentication status and email verification status. It also handles image uploading and cropping using Firebase storage.
+
+The user can connect/disconnect their MetaMask wallet and view their wallet addresses. They can also connect/disconnect their social media accounts like Google and Facebook.
+
+**company**
+
+It imports various dependencies such as React, Image, and others. It also imports functions and components from external files and libraries. The component fetches data from a Firestore database and renders a list of giveaways. It also includes some conditional rendering and event handling logic.
+
+### Components
+
+**main layout**
+
+The main layout component is used to create the main layout structure for a web page. It imports various dependencies from Firebase and other components.
+
+The component takes in a "children" prop, which represents the content to be rendered within the layout. It also uses the useUserData and useTour hooks from custom context providers.
+
+Inside the component, there are several state variables defined using the useState hook, including loading, giveaways, and featuredCompanies.
+
+There are also several useEffect hooks that handle fetching data from Firebase and performing actions based on the fetched data. For example, the launchTutorial function is called when userData changes and sets up a tutorial based on the user's data.
+
+The getGiveaways and getCompaniesData functions fetch data from the Firestore database and update the state variables accordingly.
+
+The return statement contains the JSX code that represents the main layout structure. It includes a loader component, a sidebar component, a header component, the main content area (represented by the "children" prop), a footer component, and a mobile navigation component.
+
+**mobile header**
+
+It imports necessary dependencies such as useState from React, Lottie for animation, and various icons from the Heroicons library. It also imports the logo animation from a JSON file and the HeaderBizUtility component.
+
+The component defines a state variable called "navbar" using the useState hook. It is initially set to false.
+
+Inside the return statement, there is a navigation element with a class name for styling. 
+
+There is a button that toggles the value of the "navbar" state when clicked. Depending on the value of "navbar", it renders either the ChevronUpIcon or the ChevronDownIcon.
+
+Inside a div, there is another div that has conditional styling based on the value of "navbar". If "navbar" is true, it has the "block" class, otherwise it has the "hidden" class. Inside this div, the HeaderBizUtility component is rendered.
+
+**home hero**
+
+This component is responsible for rendering the hero section of a website. The hero section includes a headline, description, and a button for registration. It also includes an image of giveaways and a section for step-by-step instructions. The component uses the useAuth hook from the authcontext to handle authentication and display an authentication modal.
+
+
 
