@@ -12,3 +12,8 @@ The configuration is defined to represent the values used for l1 blockchain. The
 
 What is the event order? To some extent, it is equal to the event type. There are 3 main smart contracts controlled by the ethereum manager. The client is constructed to operate with l1 blockchain. The client has the smart contract elements. The events are queried and processed to get the data from the l1 blockchain. 
 
+As for the data from l1 blockchain, most of data comes from the smart ciontract's states while some are from the system level. 
+
+## Ethereum Transaction Manager
+
+The settings of ethereum transaction manager are fetched from the configuration object. Each field of the configuration structure is one item in the setting. The aspects of transaction manager are composed of transaction onchain operation, transaction storage operation and transaction state operation. These three facets are declared as interface type. The actual job of transaction manager is done by the client structure type. The client type depends on the ethereum manager instance, storage instance and state manager instance. When the transaction is added, the transaction is persisted into database firstly. The transaction from the request becomes the monitored transactin. The monitored transaction can be filtered by the conditions of id, ownder and status. 
