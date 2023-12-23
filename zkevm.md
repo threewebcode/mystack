@@ -17,3 +17,13 @@ As for the data from l1 blockchain, most of data comes from the smart ciontract'
 ## Ethereum Transaction Manager
 
 The settings of ethereum transaction manager are fetched from the configuration object. Each field of the configuration structure is one item in the setting. The aspects of transaction manager are composed of transaction onchain operation, transaction storage operation and transaction state operation. These three facets are declared as interface type. The actual job of transaction manager is done by the client structure type. The client type depends on the ethereum manager instance, storage instance and state manager instance. When the transaction is added, the transaction is persisted into database firstly. The transaction from the request becomes the monitored transactin. The monitored transaction can be filtered by the conditions of id, ownder and status. 
+
+## Sequencer
+
+The sequencer is made of transaction pool, state manger, ethereum manager and event logger. It also has an address. The address is ethereum cryptography address. 
+
+The sequencer loads the transactions from the transaction pool and sends these working in progress transactions to the worker. The worker creates a transaction tracker for this transaction and updates the transaction pool. After the transaction is processed, it will be deleted from the transaction pool. 
+
+## Storage
+
+The posgresql is used as the database layer. The reset operation means the data are deleted from the block tablle. The fork id and trusted batch can also be resetted. When the block is added, the block table is inserted by a new record. The block table stores the block data which are related to l1 blockchain. The exit root table is used to house the global exit root data. The forced batch table stores the forced batch records. The virtual batch table is filled with batch virtualization data. The verified batch table has the records that are verified by l1 blockchain. 
