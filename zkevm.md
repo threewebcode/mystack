@@ -35,3 +35,9 @@ The batch can be opened and stored in the database through state interface. The 
 ## Transaction Pool
 
 The properties in the configuration are used to control the transaction pool's behaviors. The transaction pool has its own storage interface definition. The storage interface provides all methods to manage all aspects of the transaction. The storage implemenation manages the transaction table of posgresql database. 
+
+## Transaction Manager
+
+The items of configuration are the property with sourced value which can take control of transaction manager's execution flow. It has an effect on the capability of the target object. The interface of ethereum manager possesses all functions related to ethereum network. The primary purpose of transaction manager is about the transaction construction. It is a layer beyond the ethereum manager.  The transaction manager has a client which brings the ethereum manager, database storage and state manager together. The transaction is not only managed by the transaction manager, but also monitored by the transaction manager. 
+
+The configuration of batch constraint holds the values to restrict the batch. 
