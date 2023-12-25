@@ -40,4 +40,6 @@ The properties in the configuration are used to control the transaction pool's b
 
 The items of configuration are the property with sourced value which can take control of transaction manager's execution flow. It has an effect on the capability of the target object. The interface of ethereum manager possesses all functions related to ethereum network. The primary purpose of transaction manager is about the transaction construction. It is a layer beyond the ethereum manager.  The transaction manager has a client which brings the ethereum manager, database storage and state manager together. The transaction is not only managed by the transaction manager, but also monitored by the transaction manager. 
 
-The configuration of batch constraint holds the values to restrict the batch. 
+The configuration of batch constraint holds the values to restrict the batch. The sequence sender gets the sequences from the batch table. The length of sequences are counted. The sequences would have at least one sequence to be sent. The transaction id is formed with first sequence and last sequence in the list. This transaction is added as the monitored transaction with the identified owner and id. The monitored transaction is managed by the transaction manager. 
+
+The monitored transaction should be in the valid status. They should be either confirmed, failed or reorged. The monitored transaction can be set to done by the sequence sender. 
