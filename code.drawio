@@ -101,7 +101,7 @@
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-16" target="9xFjlU9iyD7qqbfQ3KTe-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-16" value="验证这节点" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-16" value="验证者节点" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
           <mxGeometry x="439" y="532" width="46" height="52" as="geometry" />
         </mxCell>
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-18" target="9xFjlU9iyD7qqbfQ3KTe-13">
