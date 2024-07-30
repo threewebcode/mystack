@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-1" value="用户A" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="223" y="314" width="30" height="60" as="geometry" />
+          <mxGeometry x="122" y="325" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-2" value="用户B" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="598" y="320" width="30" height="60" as="geometry" />
+          <mxGeometry x="687" y="332" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-3" target="9xFjlU9iyD7qqbfQ3KTe-4">
           <mxGeometry relative="1" as="geometry" />
@@ -36,6 +36,33 @@
         </mxCell>
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-11" value="IPFS网络" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="359" y="174" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-13" target="9xFjlU9iyD7qqbfQ3KTe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-13" value="节点" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+          <mxGeometry x="313" y="400" width="46" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-14" target="9xFjlU9iyD7qqbfQ3KTe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-14" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+          <mxGeometry x="439" y="400" width="46" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-16" target="9xFjlU9iyD7qqbfQ3KTe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-16" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+          <mxGeometry x="439" y="532" width="46" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-18" target="9xFjlU9iyD7qqbfQ3KTe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+          <mxGeometry x="313" y="532" width="46" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-22" value="区块链网络" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="345" y="480" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
