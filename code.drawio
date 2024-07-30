@@ -40,29 +40,53 @@
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-13" target="9xFjlU9iyD7qqbfQ3KTe-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-13" value="节点" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-27" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-13" target="9xFjlU9iyD7qqbfQ3KTe-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-13" value="全节点" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
           <mxGeometry x="313" y="400" width="46" height="52" as="geometry" />
         </mxCell>
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-14" target="9xFjlU9iyD7qqbfQ3KTe-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-14" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-25" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-14" target="9xFjlU9iyD7qqbfQ3KTe-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-14" value="归档节点" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
           <mxGeometry x="439" y="400" width="46" height="52" as="geometry" />
         </mxCell>
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-16" target="9xFjlU9iyD7qqbfQ3KTe-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-16" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-16" target="9xFjlU9iyD7qqbfQ3KTe-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-16" value="验证这节点" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
           <mxGeometry x="439" y="532" width="46" height="52" as="geometry" />
         </mxCell>
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-18" target="9xFjlU9iyD7qqbfQ3KTe-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9xFjlU9iyD7qqbfQ3KTe-18" target="9xFjlU9iyD7qqbfQ3KTe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-18" value="轻节点" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.node_generic;fillColor=#CCCBCB;" vertex="1" parent="1">
           <mxGeometry x="313" y="532" width="46" height="52" as="geometry" />
         </mxCell>
         <mxCell id="9xFjlU9iyD7qqbfQ3KTe-22" value="区块链网络" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="345" y="480" width="110" height="30" as="geometry" />
+          <mxGeometry x="345" y="485" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-24" value="云设备" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/StorSimple.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="452" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-26" value="物理设备" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device" vertex="1" parent="1">
+          <mxGeometry x="152" y="459" width="50" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-28" value="边缘设备" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_device_defender;" vertex="1" parent="1">
+          <mxGeometry x="152" y="534.5" width="47" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="9xFjlU9iyD7qqbfQ3KTe-30" value="物理设备" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device" vertex="1" parent="1">
+          <mxGeometry x="610" y="545" width="50" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
