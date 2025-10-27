@@ -1,0 +1,52 @@
+# PHP-specific files
+/vendor/
+composer.lock
+*.lock
+
+# Dependency directories
+/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache and temporary files
+*.cache
+*.log
+*.bak
+*.swp
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/bootstrap/cache/*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing and build files
+/coverage/
+/build/
+/dist/
+/tests/_output/*
+/tests/_support/_generated/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore specific PHP framework files
+# For Laravel
+/public/hot
+/public/storage
+/storage/*.key
+
+# For Symfony
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+/bin/console
