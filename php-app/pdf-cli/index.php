@@ -15,7 +15,7 @@ if ($argc !== 2) {
 $url = $argv[1];
 
 // Validate URL
-if (!filter_var($url, FILTER_VALIDATE_URL) || !preg_match('/\.pdf$/', $url)) {
+if (!filter_var($url, FILTER_VALIDATE_URL)) {
     echo "Error: Please provide a valid PDF URL from arXiv (e.g., https://arxiv.org/pdf/1234.56789.pdf)\n";
     exit(1);
 }
