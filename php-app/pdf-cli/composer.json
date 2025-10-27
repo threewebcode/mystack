@@ -1,0 +1,20 @@
+{
+    "name": "afanti/console",
+    "description": "Extract text content from PDF file",
+    "type": "library",
+    "require": {
+        "smalot/pdfparser": "^2.12"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Afanti\\Console\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Afanti",
+            "email": "phpjavaphp@gmail.com"
+        }
+    ]
+}
